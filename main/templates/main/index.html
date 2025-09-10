@@ -4,6 +4,7 @@
 {{ block.super}}/ {{ title }}
 {% endblock title%}
 
+{% block content %}
 <!--=====================================
             BANNER PART START
 =======================================-->
@@ -45,16 +46,6 @@
                         <p>(25) ads</p>
                     </div>
                 </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="center-20">
-                    <a href="cities.html" class="btn btn-inline">
-                        <i class="fas fa-eye"></i>
-                        <span>view all Cities</span>
-                    </a>
-                </div>
             </div>
         </div>
     </div>
@@ -342,3 +333,4 @@
 <!--=====================================
              BLOG PART END
 =======================================-->
+{% endblock content%}
