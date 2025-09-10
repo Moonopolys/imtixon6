@@ -1,0 +1,344 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ block.super}}/ {{ title }}
+{% endblock title%}
+
+<!--=====================================
+            BANNER PART START
+=======================================-->
+<section class="banner-part">
+    <div class="container">
+        <div class="banner-content">
+            <h1>You can #Buy, #Rent, #Booking anything from here.</h1>
+            <p>Buy and sell everything from used cars to mobile phones and computers, or search for property, jobs and more in the world.</p>
+            <a href="ad-list-column3.html" class="btn btn-outline">
+                <i class="fas fa-eye"></i>
+                <span>Show all ads</span>
+            </a>
+        </div>
+    </div>
+</section>
+<!--=====================================
+            BANNER PART END
+=======================================-->
+
+
+<!--=====================================
+            CITY PART START
+=======================================-->
+<section class="section city-part">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-center-heading">
+                    <h2>Top Cities by <span>Ads</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit aspernatur illum vel sunt libero voluptatum repudiandae veniam maxime tenetur.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <a href="ad-list-column3.html" class="city-card" style="background: url(images/cities/01.jpg) no-repeat center; background-size: cover">
+                    <div class="city-content">
+                        <h4>Los Angeles</h4>
+                        <p>(25) ads</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="center-20">
+                    <a href="cities.html" class="btn btn-inline">
+                        <i class="fas fa-eye"></i>
+                        <span>view all Cities</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=====================================
+            CITY PART END
+=======================================-->
+
+
+<!--=====================================
+            AD LIST PART START
+=======================================-->
+    <div class="container">
+        <div class="row content-reverse">
+            <div class="col-lg-4 col-xl-3">
+                <div class="row">
+                    <div class="col-md-6 col-lg-12">
+                        <div class="product-widget">
+                            <h6 class="product-widget-title">filter by category</h6>
+                            <form class="product-widget-form">
+                                <div class="product-widget-search">
+                                    <input type="text" placeholder="search">
+                                </div>
+                                <ul class="product-widget-list product-widget-scroll">
+                                    <li class="product-widget-dropitem">
+                                        <button type="button" class="product-widget-link">
+                                            <i class="fas fa-tags"></i>
+                                            electronics (234)
+                                        </button>
+                                        <ul class="product-widget-dropdown">
+                                            <li><a href="#">mixer (56)</a></li>
+                                            <li><a href="#">freez (78)</a></li>
+                                            <li><a href="#">LED tv (78)</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <button type="submit" class="product-widget-btn">
+                                    <i class="fas fa-broom"></i>
+                                    <span>Clear Filter</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ad-feature-slider slider-arrow">
+                            <div class="feature-card">
+                                <a href="#" class="feature-img">
+                                    <img src="images/product/10.jpg" alt="feature">
+                                </a>
+                                <div class="cross-inline-badge feature-badge">
+                                    <span>featured</span>
+                                    <i class="fas fa-book-open"></i>
+                                </div>
+                                <button type="button" class="feature-wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <div class="feature-content">
+                                    <ol class="breadcrumb feature-category">
+                                        <li><span class="flat-badge rent">rent</span></li>
+                                        <li class="breadcrumb-item"><a href="#">automobile</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">private car</li>
+                                    </ol>
+                                    <h3 class="feature-title"><a href="ad-details-left.html">Unde eveniet ducimus nostrum maiores soluta temporibus ipsum dolor sit amet.</a></h3>
+                                    <div class="feature-meta">
+                                        <span class="feature-price">$1200<small>/Monthly</small></span>
+                                        <span class="feature-time"><i class="fas fa-clock"></i>56 minute ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-img">
+                                    <img src="images/product/07.jpg" alt="product">
+                                </div>
+                                <div class="cross-vertical-badge product-badge">
+                                    <i class="fas fa-clipboard-check"></i>
+                                    <span>recommend</span>
+                                </div>
+                                <div class="product-type">
+                                    <span class="flat-badge booking">booking</span>
+                                </div>
+                                <ul class="product-action">
+                                    <li class="view"><i class="fas fa-eye"></i><span>264</span></li>
+                                    <li class="click"><i class="fas fa-mouse"></i><span>134</span></li>
+                                    <li class="rating"><i class="fas fa-star"></i><span>4.5/7</span></li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <ol class="breadcrumb product-category">
+                                    <li><i class="fas fa-tags"></i></li>
+                                    <li class="breadcrumb-item"><a href="#">Luxury</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">resort</li>
+                                </ol>
+                                <h5 class="product-title">
+                                    <a href="#">Lorem ipsum dolor sit amet consect adipisicing elit</a>
+                                </h5>
+                                <div class="product-meta">
+                                    <span><i class="fas fa-map-marker-alt"></i>Uttara, Dhaka</span>
+                                    <span><i class="fas fa-clock"></i>30 min ago</span>
+                                </div>
+                                <div class="product-info">
+                                    <h5 class="product-price">$1590<span>/per week</span></h5>
+                                    <div class="product-btn">
+                                        <a href="compare.html" title="Compare" class="fas fa-compress"></a>
+                                        <button type="button" title="Wishlist" class="far fa-heart"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=====================================
+            AD LIST PART END
+=======================================-->
+
+
+<!--=====================================
+             BLOG PART START
+=======================================-->
+<section class="blog-part">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-center-heading">
+                    <h2>Read Our <span>Recent Articles</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit aspernatur illum vel sunt libero voluptatum repudiandae veniam maxime tenetur.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="blog-slider slider-arrow">
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="images/blog/01.jpg" alt="blog">
+                            <div class="blog-overlay">
+                                <span class="marketing">Marketing</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <a href="#" class="blog-avatar">
+                                <img src="images/avatar/01.jpg" alt="avatar">
+                            </a>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="fas fa-user"></i>
+                                    <p><a href="#">MironMahmud</a></p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-clock"></i>
+                                    <p>02 Feb 2021</p>
+                                </li>
+                            </ul>
+                            <div class="blog-text">
+                                <h4><a href="blog-details.html">Lorem ipsum dolor sit amet eius minus elit cum quaerat volupt.</a></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veniam ad dolore labore laborum perspiciatis...</p>
+                            </div>
+                            <a href="blog-details.html" class="blog-read">
+                                <span>read more</span>
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="images/blog/02.jpg" alt="blog">
+                            <div class="blog-overlay">
+                                <span class="advertise">advertise</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <a href="#" class="blog-avatar">
+                                <img src="images/avatar/02.jpg" alt="avatar">
+                            </a>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="fas fa-user"></i>
+                                    <p><a href="#">LabonnoKhan</a></p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-clock"></i>
+                                    <p>02 Feb 2021</p>
+                                </li>
+                            </ul>
+                            <div class="blog-text">
+                                <h4><a href="blog-details.html">Lorem ipsum dolor sit amet eius minus elit cum quaerat volupt.</a></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veniam ad dolore labore laborum perspiciatis...</p>
+                            </div>
+                            <a href="blog-details.html" class="blog-read">
+                                <span>read more</span>
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="images/blog/03.jpg" alt="blog">
+                            <div class="blog-overlay">
+                                <span class="safety">safety</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <a href="#" class="blog-avatar">
+                                <img src="images/avatar/03.jpg" alt="avatar">
+                            </a>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="fas fa-user"></i>
+                                    <p><a href="#">MironMahmud</a></p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-clock"></i>
+                                    <p>02 Feb 2021</p>
+                                </li>
+                            </ul>
+                            <div class="blog-text">
+                                <h4><a href="blog-details.html">Lorem ipsum dolor sit amet eius minus elit cum quaerat volupt.</a></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veniam ad dolore labore laborum perspiciatis...</p>
+                            </div>
+                            <a href="blog-details.html" class="blog-read">
+                                <span>read more</span>
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-img">
+                            <img src="images/blog/04.jpg" alt="blog">
+                            <div class="blog-overlay">
+                                <span class="security">security</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <a href="#" class="blog-avatar">
+                                <img src="images/avatar/04.jpg" alt="avatar">
+                            </a>
+                            <ul class="blog-meta">
+                                <li>
+                                    <i class="fas fa-user"></i>
+                                    <p><a href="#">TahminaBonny</a></p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-clock"></i>
+                                    <p>02 Feb 2021</p>
+                                </li>
+                            </ul>
+                            <div class="blog-text">
+                                <h4><a href="blog-details.html">Lorem ipsum dolor sit amet eius minus elit cum quaerat volupt.</a></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus veniam ad dolore labore laborum perspiciatis...</p>
+                            </div>
+                            <a href="blog-details.html" class="blog-read">
+                                <span>read more</span>
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="blog-btn">
+                    <a href="blog-list.html" class="btn btn-inline">
+                        <i class="fas fa-eye"></i>
+                        <span>view all blogs</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=====================================
+             BLOG PART END
+=======================================-->
